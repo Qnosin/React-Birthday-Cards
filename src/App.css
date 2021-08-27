@@ -1,0 +1,61 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+  height: 100vh;
+  background-color:		#E4D00A	;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.birthDayList{
+  min-height: 85vh;
+  width: 35%;
+  background-color: white;
+}
+.mainTitle{
+  width: 100%;
+}
+.mainTitle p{
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+.oval{
+  border-radius: 100%;
+  width: 20%;
+  height: 13vh;
+}
+.birthdayPerson{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.info{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info h4 {
+  margin: 0;
+}
+
+@media screen and (max-width:684px) {
+  .birthDayList{
+    width: 70%;
+  }
+  
+}
+
+@media screen and (min-width:768px) {
+  .birthDayList{
+    width: 90%;
+  }
+}
+  
