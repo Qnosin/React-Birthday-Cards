@@ -45,6 +45,22 @@
 .info h4 {
   margin: 0;
 }
+.clearButton{
+  margin: 0 auto;
+  height: 5vh;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+  background-color: #E4D00A;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.clearButton:hover{
+  -webkit-box-shadow: 3px 5px 35px 5px rgba(0,0,0,0.88); 
+box-shadow: 3px 5px 35px 5px rgba(0,0,0,0.88);
+}
 
 @media screen and (max-width:684px) {
   .birthDayList{
@@ -53,9 +69,5 @@
   
 }
 
-@media screen and (min-width:768px) {
-  .birthDayList{
-    width: 90%;
-  }
-}
+
   
